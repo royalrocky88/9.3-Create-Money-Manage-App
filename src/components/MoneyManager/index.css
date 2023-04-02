@@ -1,0 +1,208 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  height: 99%;
+  width: 99%;
+  max-width: 1200px;
+  overflow: auto;
+  padding: 1%;
+}
+
+.head-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: cover;
+  border-radius: 15px;
+  padding: 20px 0px 20px 5%;
+  width: 99%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 567px) {
+  .head-container {
+    width: 90%;
+    padding: 4%;
+  }
+}
+
+.heading-card {
+  font-family: roboto;
+  color: #475569;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .heading-card {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+.slogan-card {
+  color: #7e858e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .slogan-card {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+.color-card {
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .color-card {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.mid-container {
+  margin-bottom: 2%;
+  width: 99%;
+}
+
+@media screen and (max-width: 576px) {
+  .mid-container {
+    width: 90%;
+  }
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  height: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .last-container {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.form-card {
+  width: 40%;
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4%;
+}
+
+@media screen and (max-width: 576px) {
+  .form-card {
+    width: auto;
+  }
+}
+
+.head-card {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.label-card {
+  color: #d7dfe9;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.input-card {
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  font-size: 20px;
+  padding: 1%;
+  margin-bottom: 3%;
+  background-color: #ffffff;
+  color: #334155;
+}
+
+.btn {
+  width: 100px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 2%;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 3%;
+  cursor: pointer;
+  outline: none;
+  background-color: #0b69ff;
+}
+
+.history-card {
+  width: 55%;
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2%;
+}
+
+@media screen and (max-width: 576px) {
+  .history-card {
+    margin-top: 5%;
+    width: auto;
+    padding: 4%;
+  }
+}
+
+.history-container {
+  width: 99%;
+}
+
+.list-card-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #7e858e;
+  width: auto;
+  padding-left: 2%;
+}
+
+.pay-detail {
+  color: #334155;
+  font-weight: 800;
+  font-size: 18px;
+  width: 25%;
+}
+
+.pay-off-detail {
+  color: transparent;
+  font-weight: 800;
+}
